@@ -1,0 +1,14 @@
+#Distributes historical CEV values to all relevant nations
+
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				#Add terrain modifiers
+				set_technology = { combat_modifiers = 1 }
+				#Add dynamic modifiers
+				add_dynamic_modifier = { modifier = total_mob_combat_offsets }
+			}
+		}
+	}
+}
