@@ -5,7 +5,10 @@ on_actions = {
 		effect = {
 			every_country = {
 				#Add terrain modifiers
-				set_technology = { combat_modifiers = 1 }
+				set_technology = {
+					combat_modifiers = 1
+					popup = no
+				}
 				#Add dynamic modifiers
 				add_dynamic_modifier = { modifier = total_mob_combat_offsets }
 			}
