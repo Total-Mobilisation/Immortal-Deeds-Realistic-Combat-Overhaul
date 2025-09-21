@@ -38,4 +38,6 @@ total_mob_combat_offsets = {
 	army_strength_factor = -0.4
 	army_org_factor = -0.4
 
+	combat_width_factor = 1
+
 }

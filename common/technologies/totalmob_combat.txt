@@ -74,6 +74,7 @@ technologies = {
 		}
 
 		category_line_artillery = {
+            combat_width = -3
             plains = {
                 attack = 1
                 defence = 2
