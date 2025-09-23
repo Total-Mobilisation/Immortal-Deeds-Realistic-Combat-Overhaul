@@ -8,3 +8,8 @@ NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER	 = 0.0285 -- 0.00245 Org 
 -- Adjusts experience factor
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 4
+NDefines.NMilitary.REINFORCE_CHANCE = 0.12
+NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.02
+NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15
+NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.3
+NDefines.NMilitary.BASE_FORT_PENALTY = -0.1
