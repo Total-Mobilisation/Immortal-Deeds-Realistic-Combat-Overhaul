@@ -9,9 +9,14 @@ on_actions = {
 					combat_modifiers = 1
 					popup = no
 				}
+				
+			}
+		}
+	}
+	on_daily = {
+		effect = {
 				#Add dynamic modifiers
 				add_dynamic_modifier = { modifier = total_mob_combat_offsets }
-			}
 		}
 	}
 }
