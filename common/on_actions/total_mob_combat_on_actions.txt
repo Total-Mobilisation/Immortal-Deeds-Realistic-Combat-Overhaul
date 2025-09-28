@@ -17,6 +17,8 @@ on_actions = {
 		effect = {
 				#Add dynamic modifiers
 				add_dynamic_modifier = { modifier = total_mob_combat_offsets }
+				#Offsets max_planning_factor
+				set_variable = { total_mob_planning_offset = -0.75 }
 		}
 	}
 }
