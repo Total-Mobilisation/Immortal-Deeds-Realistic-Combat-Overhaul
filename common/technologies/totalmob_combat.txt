@@ -3,7 +3,13 @@ technologies = {
 
 		research_cost = 1
 
-		category_all_infantry = {
+		category_front_line = {
+			soft_attack = -0.4
+            army_strength_factor = -0.4
+	        army_org_factor = -0.4
+		}
+        
+        category_all_infantry = {
             plains = {
                 attack = 0
                 defence = 0.50
