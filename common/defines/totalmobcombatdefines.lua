@@ -10,6 +10,35 @@ NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 1
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 1
 NDefines.NMilitary.MULTIPLE_COMBATS_PENALTY = -0.7 -- please stop changing!! this is intentional. 
 
+--Armor and piercing
+NDefines.NMilitary.PIERCING_THRESHOLDS = {
+	1.00,
+	0.9,
+	0.8,
+	0.7,
+	0.6,
+	0.5,
+	0.4,
+	0.3,
+	0.2,
+	0.1,
+	0.0,
+}
+
+NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {
+	1.00,
+	0.86,
+	0.73,
+	0.62,
+	0.52,
+	0.44,
+	0.37,
+	0.32,
+	0.28,
+	0.26,
+	0.25,
+}
+
 -- Adjusts Org/Strength Damage
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.02 -- 
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.0277 -- Org is now much higher than before. Division will retreat when 1/5.7th are casualties (approx 30% of battalion).
