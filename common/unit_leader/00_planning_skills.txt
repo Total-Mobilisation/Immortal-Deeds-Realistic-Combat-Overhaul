@@ -96,7 +96,7 @@ leader_planning_skills = {
 		cost = 100
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.04
+			army_org_factor = 0.02
 		}
 	}
 		
@@ -104,7 +104,7 @@ leader_planning_skills = {
 		cost = 200
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.08
+			army_org_factor = 0.04
 		}
 	}
 	
@@ -113,7 +113,7 @@ leader_planning_skills = {
 		cost = 400
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.12
+			army_org_factor = 0.06
 		}
 	}
 	
@@ -121,7 +121,7 @@ leader_planning_skills = {
 		cost = 800
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.16
+			army_org_factor = 0.08
 		}
 	}
 	
@@ -129,7 +129,7 @@ leader_planning_skills = {
 		cost = 1600
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.2
+			army_org_factor = 0.1
 		}
 	}
 
@@ -137,7 +137,7 @@ leader_planning_skills = {
 		cost = 3200
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.24
+			army_org_factor = 0.12
 		}
 	}
 
@@ -145,7 +145,7 @@ leader_planning_skills = {
 		cost = 6400
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.28
+			army_org_factor = 0.14
 		}
 	}
 
@@ -153,7 +153,7 @@ leader_planning_skills = {
 		cost = 12800
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.32
+			army_org_factor = 0.16
 		}
 	}
 
@@ -161,7 +161,7 @@ leader_planning_skills = {
 		cost = 25600
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.36
+			army_org_factor = 0.18
 		}
 	}
 	
@@ -169,7 +169,7 @@ leader_planning_skills = {
 		cost = 51200
 		type = corps_commander
 		modifier = {
-			army_org_factor = 0.4
+			army_org_factor = 0.2
 		}
 	}
 	
@@ -178,7 +178,7 @@ leader_planning_skills = {
 		cost = 100
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.04
+			army_org_factor = 0.02
 		}
 	}
 	
@@ -187,7 +187,7 @@ leader_planning_skills = {
 		cost = 200
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.08
+			army_org_factor = 0.04
 		}
 	}
 	
@@ -196,7 +196,7 @@ leader_planning_skills = {
 		cost = 400
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.12
+			army_org_factor = 0.06
 		}
 	}
 	
@@ -204,7 +204,7 @@ leader_planning_skills = {
 		cost = 800
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.16
+			army_org_factor = 0.08
 		}
 	}
 	
@@ -212,7 +212,7 @@ leader_planning_skills = {
 		cost = 1600
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.20
+			army_org_factor = 0.10
 		}
 	}
 
@@ -220,7 +220,7 @@ leader_planning_skills = {
 		cost = 3200
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.24
+			army_org_factor = 0.12
 		}
 	}	
 
@@ -228,7 +228,7 @@ leader_planning_skills = {
 		cost = 6400
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.28
+			army_org_factor = 0.14
 		}
 	}	
 
@@ -236,7 +236,7 @@ leader_planning_skills = {
 		cost = 12800
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.32
+			army_org_factor = 0.16
 		}
 	}	
 
@@ -244,7 +244,7 @@ leader_planning_skills = {
 		cost = 25600
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.36
+			army_org_factor = 0.18
 		}
 	}
 	
@@ -252,7 +252,7 @@ leader_planning_skills = {
 		cost = 51200
 		type = field_marshal
 		modifier = {
-			army_org_factor = 0.4
+			army_org_factor = 0.2
 		}
 	}
 }
