@@ -91,11 +91,6 @@ categories =  {
 			coastal_bunker = 6
 		}
 
-		units = {
-			attack = -0.4
-			#movement = -0.4
-		}
-
 		enemy_army_bonus_air_superiority_factor = -0.10
 		
 		supply_flow_penalty_factor = 0.12
@@ -130,11 +125,6 @@ categories =  {
 			coastal_bunker = 6
 		}
 
-		units = {
-			attack = -0.2
-			#movement = -0.2
-		}
-
 		enemy_army_bonus_air_superiority_factor = -0.50
 				
 		supply_flow_penalty_factor = -0.2
@@ -154,11 +144,6 @@ categories =  {
 		buildings_max_level = {
 			bunker = 3
 			coastal_bunker = 6
-		}
-
-		units = {
-			attack = -0.25
-			#movement = -0.3
 		}
 
 		enemy_army_bonus_air_superiority_factor = -0.25
@@ -183,11 +168,6 @@ categories =  {
 		buildings_max_level = {
 			bunker = 3
 			coastal_bunker = 6
-		}
-
-		units = {
-			attack = -0.3
-			#movement = -0.4
 		}
 		
 		sickness_chance = 1.0

@@ -11,108 +11,131 @@ technologies = {
         
         category_all_infantry = {
             plains = {
-                attack = 0
-                defence = 0.50
+                attack = -0.37
+                defence = 0
             }
             desert = {
-                attack = 0
-                defence = 0.50
+                attack = -0.44
+                defence = 0
             }
             hills = {
-                attack = 0
-                defence = 0.50
+                attack = -0.44
+                defence = 0
             }
             forest = {
-                attack = 0
-                defence = 0.50
+                attack = -0.44
+                defence = 0
             }
             jungle = {
-                attack = 0
-                defence = 0.50
+                attack = -0.52
+                defence = 0
             }
             mountain = {
-                attack = 0
-                defence = 0.50
+                attack = -0.56
+                defence = 0
             }
             urban = {
-                attack = 0
-                defence = 0.50
+                attack = -0.52
+                defence = 0
             }
             marsh = {
-                attack = 0
-                defence = 0.50
-            } 
+                attack = -0.49
+                defence = 0
+            }
 		}
 
 		category_all_armor = {
             plains = {
-                attack = 0
-                defence = 0.50
+                attack = -0.37
+                defence = 0
             }
             desert = {
-                attack = 0
-                defence = 0.50
+                attack = -0.44
+                defence = 0
             }
             hills = {
-                attack = 0
-                defence = 0.50
+                attack = -0.44
+                defence = 0
             }
             forest = {
-                attack = 0
-                defence = 0.50
+                attack = -0.44
+                defence = 0
             }
             jungle = {
-                attack = 0
-                defence = 0.50
+                attack = -0.52
+                defence = 0
             }
             mountain = {
-                attack = 0
-                defence = 0.50
+                attack = -0.56
+                defence = 0
             }
             urban = {
-                attack = 0
-                defence = 0.50
+                attack = -0.52
+                defence = 0
             }
             marsh = {
-                attack = 0
-                defence = 0.50
-            } 
+                attack = -0.49
+                defence = 0
+            }
 		}
+        
+        artillery_brigade = {
+            combat_width = -3
+        }
+
+        mot_artillery_brigade = {
+            combat_width = -3
+        }
+
+        rocket_artillery_brigade = {
+            combat_width = -3
+        }
+
+        mot_rocket_artillery_brigade = {
+            combat_width = -3
+        }
+
+        motorized_rocket_brigade = {
+            combat_width = -3
+        }
+        
+        category_self_propelled_artillery = {
+            combat_width = -3
+        }
 
 		category_line_artillery = {
-            combat_width = -3
             plains = {
-                attack = 1
-                defence = 2
+                attack = -0.37
+                defence = 0
             }
             desert = {
-                attack = 1
-                defence = 2
+                attack = -0.44
+                defence = 0
             }
             hills = {
-                attack = 1
-                defence = 2
+                attack = -0.44
+                defence = 0
             }
             forest = {
-                attack = 1
-                defence = 2
+                attack = -0.44
+                defence = 0
             }
             jungle = {
-                attack = 1
-                defence = 2
+                attack = -0.52
+                defence = 0
             }
             mountain = {
-                attack = 1
-                defence = 2
+                attack = -0.56
+                defence = 0
             }
             urban = {
-                attack = 1
-                defence = 2
+                attack = -0.52
+                defence = 0
             }
             marsh = {
-                attack = 1
-                defence = 2
-            } 
+                attack = -0.49
+                defence = 0
+            }
 		}
 
 	}
