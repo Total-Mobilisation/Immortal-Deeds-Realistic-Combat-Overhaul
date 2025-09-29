@@ -67,6 +67,9 @@ NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 12
 -- Lower min speed
 NDefines.NMilitary.SLOWEST_SPEED =  0.5
 NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.075
+NDefines.NMilitary.STRATEGIC_SPEED_RAIL_BASE = 7               -- Base speed of strategic redeployment when on railways
+NDefines.NMilitary.STRATEGIC_SPEED_RAIL_MAX = 14                -- WW1 train can go 30kmh. lower for balance reasons. WW2 Train can go 50kmh. Halved once for no train at night, halved again for stupid game mechanics.
+NDefines.NMilitary.STRATEGIC_REDEPLOY_ORG_RATIO = 0.1
 
 -- Retreat Speed Readjustedment
 NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.33               -- 0.25 speed bonus when retreating
