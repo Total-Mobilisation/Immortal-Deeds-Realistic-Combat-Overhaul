@@ -36,6 +36,9 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.05
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.1
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.1
 
+--DIG in Nerf
+NDefines.NMilitary.DIG_IN_FACTOR = 0.01
+
 -- Attaches are cheaper and nerfer
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 10
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 5
