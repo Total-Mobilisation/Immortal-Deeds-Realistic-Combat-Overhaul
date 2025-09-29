@@ -1,9 +1,23 @@
+-- Oh, whoops, forgot to add this
+NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 0
+NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 0
+
+NDefines.NMilitary.LAND_COMBAT_ORG_DICE_SIZE = 4
+NDefines.NMilitary.LAND_COMBAT_STR_DICE_SIZE = 4
+NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 4
+NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6
+NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 1
+NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 1
+NDefines.NMilitary.MULTIPLE_COMBATS_PENALTY = -0.7 -- please stop changing!! this is intentional. 
+
 -- Adjusts Org/Strength Damage
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.02 -- 
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.0277 -- Org is now much higher than before. Division will retreat when 1/5.7th are casualties (approx 30% of battalion).
 
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER	 = 0.0095 -- vanilla is 0.04. In vanilla, the main benefit of Air is that it bypass defense.
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER	 = 0.0285 -- 0.00245 Org damage is 6X now.
+NDefines.NMilitary.AIR_SUPPORT_BASE	= 0.25 -- vanilla is 0.25
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 10 -- vanilla is 3. Too high value make air support meaningless. 
 
 -- Adjusts experience factor
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
@@ -25,6 +39,9 @@ NDefines.NCountry.ATTACHE_XP_SHARE = 0
 
 -- Upkeep attrition
 NDefines.NMilitary.UNIT_UPKEEP_ATTRITION = 0.0001
+NDefines.NMilitary.ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.5 -- so daily attrition rate is this * attrition rate * 120% * (1-reliability). 
+NDefines.NMilitary.ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.1--  This is a stupid mechanics, so will set this super high to disable it. From now on, only change the define above 
+NDefines.NMilitary.ATTRITION_WHILE_MOVING_FACTOR = 2
 
 -- Adjusts Equipment Losses
 NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 1
