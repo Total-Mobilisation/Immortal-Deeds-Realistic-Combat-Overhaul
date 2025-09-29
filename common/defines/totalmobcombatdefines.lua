@@ -23,9 +23,13 @@ NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 10 -- vanilla is
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 4
 
--- Reinforcing is easier
+-- Reinforcing is harder
 NDefines.NMilitary.REINFORCE_CHANCE = 0.12
 NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.02
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 10
+NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
+NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.12
+
 
 -- Adjusts terrain/fort penalty
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.05
@@ -56,3 +60,12 @@ NDefines.NAir.ESCORT_FACTOR = 2 -- 2
 -- Lower army cap
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP  = 12
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 12
+
+-- Lower min speed
+NDefines.NMilitary.SLOWEST_SPEED =  0.5
+NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.075
+
+-- Retreat Speed Readjustedment
+NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.33               -- 0.25 speed bonus when retreating
+NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.25				--0.15 speed bonus when withdrawing
+
