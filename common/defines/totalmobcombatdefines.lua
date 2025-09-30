@@ -84,4 +84,3 @@ NDefines.NAir.ESCORT_FACTOR = 2 -- 2
 
 -- Lower army cap
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP  = 12
-NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 12
