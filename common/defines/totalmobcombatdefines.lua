@@ -52,14 +52,21 @@ NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 10 -- vanilla is
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 4
 
--- Reinforcing is easier
+-- Reinforcing is harder
 NDefines.NMilitary.REINFORCE_CHANCE = 0.12
 NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.02
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 10
+NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
+NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.12
+
 
 -- Adjusts terrain/fort penalty
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.05
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.1
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.1
+
+--DIG in Nerf
+NDefines.NMilitary.DIG_IN_FACTOR = 0.01
 
 -- Attaches are cheaper and nerfer
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 10
@@ -84,3 +91,14 @@ NDefines.NAir.ESCORT_FACTOR = 2 -- 2
 
 -- Lower army cap
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP  = 12
+
+-- Lower min speed
+NDefines.NMilitary.SLOWEST_SPEED =  0.5
+NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.075
+NDefines.NMilitary.STRATEGIC_SPEED_RAIL_BASE = 7               -- Base speed of strategic redeployment when on railways
+NDefines.NMilitary.STRATEGIC_SPEED_RAIL_MAX = 14                -- WW1 train can go 30kmh. lower for balance reasons. WW2 Train can go 50kmh. Halved once for no train at night, halved again for stupid game mechanics.
+NDefines.NMilitary.STRATEGIC_REDEPLOY_ORG_RATIO = 0.1
+
+-- Retreat Speed Readjustedment
+NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.33               -- 0.25 speed bonus when retreating
+NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.25				--0.15 speed bonus when withdrawing

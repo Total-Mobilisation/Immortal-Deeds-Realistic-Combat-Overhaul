@@ -3,12 +3,25 @@ technologies = {
 
 		research_cost = 1
 
-		category_front_line = {
-			soft_attack = -0.4
-            army_strength_factor = -0.4
+	category_light_infantry = {
+                maximum_speed = -0.60
+		}
+	category_vehicle_infantry = {
+                maximum_speed = -0.25
+		}
+	category_mobile_and_mobile_combat_sup = {
+                maximum_speed = -0.25
+		}
+ 	category_all_armor = {
+                maximum_speed = -0.33
+		}
+	
+        category_front_line = {
+	        soft_attack = -0.4
+                army_strength_factor = -0.4
 	        army_org_factor = -0.4
 		}
-        
+                      
         category_all_infantry = {
             plains = {
                 attack = -0.37
