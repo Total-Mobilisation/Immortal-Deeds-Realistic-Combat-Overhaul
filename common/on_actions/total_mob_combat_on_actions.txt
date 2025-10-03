@@ -21,6 +21,7 @@ on_actions = {
 				}
 				#Add dynamic modifiers
 				add_dynamic_modifier = { modifier = total_mob_combat_offsets }
+				add_ideas = totalmob_equipment_modifiers
 				#Offsets max_planning_factor
 				set_variable = { total_mob_planning_offset = -0.75 }
 		}
