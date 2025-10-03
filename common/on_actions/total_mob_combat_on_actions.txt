@@ -113,8 +113,8 @@ on_actions = {
 				IF = {
 					LIMIT = {
 						NOT = { has_variable = { total_mob_cev_modifier }}
-						set_variable = { total_mob_cev_modifier = -0.4 }
 					}
+					set_variable = { total_mob_cev_modifier = -0.4 }
 				}
 		}
 	}
