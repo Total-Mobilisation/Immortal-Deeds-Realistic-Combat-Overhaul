@@ -11,9 +11,11 @@ ideas = {
 					infantry_equipment = {
 						soft_attack = 1
 						build_cost_ic = 1
+						instant = yes
 					}
 					artillery = {
 						soft_attack = 0.5
+						instant = yes
 					}
 				}
 			}
