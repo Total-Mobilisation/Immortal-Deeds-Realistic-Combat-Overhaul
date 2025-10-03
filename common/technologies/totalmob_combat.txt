@@ -5,6 +5,9 @@ technologies = {
 	category_light_infantry = {
                 maximum_speed = -0.25
 		}
+	category_mobile_and_mobile_combat_sup = {
+                maximum_speed = -0.20
+		}
 
         category_front_line = {
 	        soft_attack = -0.4
