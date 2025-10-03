@@ -34,8 +34,8 @@ total_mob_combat_offsets = {
 	max_planning_factor = total_mob_planning_offset
 	#max_dig_in_factor = total_mob_planning_offset
 
-	#army_attack_factor = -0.4
-	#army_strength_factor = -0.4
-	#army_org_factor = -0.4
+	army_attack_factor = total_mob_cev_modifier
+	army_strength_factor = total_mob_cev_modifier
+	army_org_factor = total_mob_cev_modifier
 
 }
