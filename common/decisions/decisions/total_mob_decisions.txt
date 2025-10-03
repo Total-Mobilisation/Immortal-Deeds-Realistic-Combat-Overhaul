@@ -1,0 +1,28 @@
+armed_forces_reform = {
+    improve_cev = {
+        visible = {
+            check_variable = { total_mob_cev_modifier < 0 }
+        }
+
+        available = {
+			has_army_experience > 199
+            command_power > 99
+            check_variable = { total_mob_cev_modifier < 0 }
+		}
+
+        fire_only_once = yes
+        cost = 200
+
+        days_remove = 180
+
+        remove_effect = {
+            army_experience = -200
+            add_command_power = -100
+            add_to_variable = { total_mob_cev_modifier = 0.05 }
+        }
+
+        ai_will_do = {
+            base = 0
+        }
+    }
+}
