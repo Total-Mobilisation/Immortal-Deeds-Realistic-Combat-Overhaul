@@ -1,3 +1,253 @@
+FRA_dont_attack = {
+	allowed = {
+			original_tag = FRA
+	}
+	enable = {
+			original_tag = FRA
+
+date < 1940.5.1
+
+	}
+	abort = {
+	HOL = {
+			has_capitulated = yes
+		}
+	}
+	ai_strategy = {
+		type = front_control
+		tag = GER
+		priority = 1000
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+	}
+
+}
+FRA_area_priority = {
+	allowed = { original_tag = FRA }
+	enable = {
+		always = yes
+	}
+	ai_strategy = {
+  		type = garrison
+   		value = -500
+   	}
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 500		#more focus here
+	}
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = -5000
+	}
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = -5000
+	}
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = -1000
+	}
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = -99999
+	}
+	ai_strategy = {
+		type = area_priority
+		id = south_africa
+		value = -5000
+	}
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = -99999
+	}
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = -5000
+	}
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = -99999		#less focus here
+	}
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = -99999
+	}
+
+
+}
+FRA_all_in = {
+	allowed = {
+		tag = FRA # not original_tag to avoid Vichy weirdness
+	}
+	enable = {
+         date < 1942.1.1
+		has_war_with = GER
+		BEL = {
+			has_capitulated = no
+		}
+	}
+	abort = {
+		OR = {
+		GER = { has_war_with = BEL }
+		GER = { has_war_with = HOL }
+		}
+
+
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LUX"
+		value = 500
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BEL"
+		value = 500
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "ENG"
+		value = 9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		state = 18
+
+		value = 25 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		state = 785
+
+		value = 25 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		state = 29
+
+		value = 25 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		state = 28
+
+		value = 25 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = GER
+
+		value = 30 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = ITA
+
+		value = 5 # lets put more units, should be safe
+	}
+}
+FRA_all_in_2 = {
+	allowed = {
+		tag = FRA # not original_tag to avoid Vichy weirdness
+	}
+	enable = {
+		has_war_with = GER
+
+		BEL = {
+			has_capitulated = yes
+		}
+	}
+	abort = {
+
+			date > 1942.1.1
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "ENG"
+		value = 9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = GER
+
+		value = 98 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = ITA
+
+		value = 2 # lets put more units, should be safe
+	}
+}
+
+FRA_all_in_3 = {
+	allowed = {
+		tag = FRA # not original_tag to avoid Vichy weirdness
+	}
+	enable = {
+		has_war_with = GER
+
+		HOL = {
+			has_capitulated = yes
+		}
+	}
+	abort = {
+
+			date > 1942.1.1
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "ENG"
+		value = 9999
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = GER
+
+		value = 98 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = ITA
+
+		value = 2 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = SIA
+
+		value = -100 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		tag = JAP
+
+		value = -100 # lets put more units, should be safe
+	}
+}
+
 FRA_unit_production = {
 	allowed = { original_tag = FRA }
 	enable = {
@@ -490,6 +740,7 @@ FRA_why_push_into_germany_their_food_is_horrible = {
 
 		state = 42 # Moselland
 		state = 978 # Baden
+
 		priority = 100
 		ordertype = front
 		execution_type = careful
