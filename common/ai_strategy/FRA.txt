@@ -124,35 +124,35 @@ FRA_all_in = {
 
 		state = 18
 
-		value = 25 # lets put more units, should be safe
+		value = 10 # lets put more units, should be safe
 	}
 	ai_strategy = {
 		type = front_unit_request
 
 		state = 785
 
-		value = 25 # lets put more units, should be safe
+		value = 10 # lets put more units, should be safe
 	}
 	ai_strategy = {
 		type = front_unit_request
 
 		state = 29
 
-		value = 25 # lets put more units, should be safe
+		value = 10 # lets put more units, should be safe
 	}
 	ai_strategy = {
 		type = front_unit_request
 
 		state = 28
 
-		value = 25 # lets put more units, should be safe
+		value = 10 # lets put more units, should be safe
 	}
 	ai_strategy = {
 		type = front_unit_request
 
 		tag = GER
 
-		value = 30 # lets put more units, should be safe
+		value = 50 # lets put more units, should be safe
 	}
 	ai_strategy = {
 		type = front_unit_request
