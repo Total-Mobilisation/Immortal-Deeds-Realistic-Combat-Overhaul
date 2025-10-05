@@ -1726,7 +1726,7 @@ ENG_COMMONWEALTH_dont_get_sucked_into_FRA_and_die = {
 		has_war_with = GER
 		has_war_together_with = FRA
 
-		date < 1941.9.9
+		date < 1940.9.9
 
 		NOT = { has_global_flag = FRA_already_surrendered }
 	}
@@ -1735,13 +1735,8 @@ ENG_COMMONWEALTH_dont_get_sucked_into_FRA_and_die = {
 	ai_strategy = {
 		type = front_unit_request
 		area = europe
-		value = -60
+		value = 30
 	}
-
-	ai_strategy = {
-  		type = garrison
-   		value = 70
-   	}
 }
 
 ENG_please_stop_stomping_italy_so_hard_in_africa_ty = {
@@ -1805,7 +1800,7 @@ ENG_industry_we_on_an_island_bruv = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 50
+		value = 30
 	}
 
 	ai_strategy = {

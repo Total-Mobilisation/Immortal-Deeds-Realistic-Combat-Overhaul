@@ -1,17 +1,17 @@
-FRA_dont_attack = {
+FRA_dont_attack1 = {
 	allowed = {
 			original_tag = FRA
 	}
 	enable = {
 			original_tag = FRA
 
-date < 1940.5.1
+		has_war_with = GER
+		date < 1940.5.1
 
 	}
 	abort = {
-	HOL = {
-			has_capitulated = yes
-		}
+				HOL = { surrender_progress > 0.1 }
+
 	}
 	ai_strategy = {
 		type = front_control
@@ -122,6 +122,20 @@ FRA_all_in = {
 	ai_strategy = {
 		type = front_unit_request
 
+		state = 660
+
+		value = -9999 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		state = 772
+
+		value = -9999 # lets put more units, should be safe
+	}
+	ai_strategy = {
+		type = front_unit_request
+
 		state = 18
 
 		value = 10 # lets put more units, should be safe
@@ -197,57 +211,6 @@ FRA_all_in_2 = {
 		value = 2 # lets put more units, should be safe
 	}
 }
-
-FRA_all_in_3 = {
-	allowed = {
-		tag = FRA # not original_tag to avoid Vichy weirdness
-	}
-	enable = {
-		has_war_with = GER
-
-		HOL = {
-			has_capitulated = yes
-		}
-	}
-	abort = {
-
-			date > 1942.1.1
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "ENG"
-		value = 9999
-	}
-	ai_strategy = {
-		type = front_unit_request
-
-		tag = GER
-
-		value = 98 # lets put more units, should be safe
-	}
-	ai_strategy = {
-		type = front_unit_request
-
-		tag = ITA
-
-		value = 2 # lets put more units, should be safe
-	}
-	ai_strategy = {
-		type = front_unit_request
-
-		tag = SIA
-
-		value = -100 # lets put more units, should be safe
-	}
-	ai_strategy = {
-		type = front_unit_request
-
-		tag = JAP
-
-		value = -100 # lets put more units, should be safe
-	}
-}
-
 FRA_unit_production = {
 	allowed = { original_tag = FRA }
 	enable = {
@@ -789,4 +752,25 @@ JAP_avoid_joining_vichy = { #This is required due to declare_war command executi
 		value = -400
 	}
 }
+FRA_DIPLO = {
+	allowed = { original_tag = FRA }
+	enable = {
+		date > 1939.1.1
 
+		GER = { has_capitulated = no }
+	}
+	
+	abort = {
+has_war = yes	}
+	ai_strategy = {
+		type = pp_spend_priority
+		id = relation
+		value = -9999
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = guarantee
+		value = -9999
+	}
+}
