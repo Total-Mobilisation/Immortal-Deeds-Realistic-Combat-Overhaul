@@ -1,7 +1,7 @@
 armed_forces_reform = {
     improve_cev = {
         visible = {
-            check_variable = { total_mob_cev_modifier < 0 }
+            always = yes
         }
 
         available = {
