@@ -75,6 +75,7 @@ NDefines.NCountry.ATTACHE_XP_SHARE = 0
 
 -- Upkeep attrition
 NDefines.NMilitary.UNIT_UPKEEP_ATTRITION = 0.0001
+NDefines.NMilitary.TRAINING_ATTRITION = 0.0001		  			   -- amount of extra attrition from being in training
 NDefines.NMilitary.ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.5 -- so daily attrition rate is this * attrition rate * 120% * (1-reliability). 
 NDefines.NMilitary.ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.1--  This is a stupid mechanics, so will set this super high to disable it. From now on, only change the define above 
 NDefines.NMilitary.ATTRITION_WHILE_MOVING_FACTOR = 2
